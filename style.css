@@ -81,7 +81,6 @@ hr{
 .flexible-container{
     display: flex;
     width: 100%;
-    margin-left: 80px;
     margin-top: 25px;
 }
 .half-width{
@@ -102,6 +101,7 @@ hr{
     font-size: 14px;
 }
 #donate-plan-one{
+    margin-left: 90px;
     background-color: #e1f5f8;
 }
 #donate-plan-two{
@@ -109,4 +109,48 @@ hr{
 }
 #donate-plan-three{
     background-color: #ebe7cb;
+}
+.from-title{
+    color: black;
+}
+.from-para{
+    color: #9c9c98;
+    font-size: 14px;
+}
+.from-submit{
+    width: 500px;
+    margin-top: 25px;
+    padding: 45px 0;
+    background-color: #f0efd0;
+    margin-left: 390px;
+}
+.from-submit input{
+    padding: 8px 10px;
+    position: relative;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.from-submit button{
+    position: absolute;
+    margin-left: -5px;
+    padding: 6px 10px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+footer h2{
+    color: tomato;
+    font-style: italic;
+}
+footer p{
+    font-size: 12px;
 }
