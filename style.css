@@ -19,8 +19,9 @@ hr{
     width: 600px;
     margin-bottom: 25px;
 }
-.extra-section{
+.container{
     margin-bottom: 80px;
+    text-align: center;
 }
 .top-banner{
     background-image: url(images/donation1.jpg);
@@ -31,7 +32,6 @@ hr{
     height: 600px;
 }
 .banner-area{
-    text-align: center;
     padding: 80px 0;
 }
 .banner-area p{
@@ -45,10 +45,6 @@ hr{
     border-radius: 5px;
     font-size: 16px;
     font-weight: 400;
-}
-
-.donate-area{
-    text-align: center;
 }
 .donate-title{
     color: black;
@@ -74,4 +70,43 @@ hr{
     border-radius: 5px;
     background-color: #f1dfdc;
     color: tomato;
+}
+.donate-plan-title{
+    color: black;
+}
+.donate-plan-para{
+    color: #9c9c98;
+    font-size: 14px;
+}
+.flexible-container{
+    display: flex;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.half-width{
+    width: 25%;
+    border-radius: 5px;
+    margin-left: 1%;
+    padding: 25px 20px 25px 15px;
+}
+.half-width img{
+    margin-right: 255px;
+}
+.half-width h3{
+    text-align: left;
+}
+.half-width p{
+    text-align: left;
+    color: #9c9c98;
+    font-size: 14px;
+}
+#donate-plan-one{
+    background-color: #e1f5f8;
+}
+#donate-plan-two{
+    background-color: #e7dedd;
+}
+#donate-plan-three{
+    background-color: #ebe7cb;
 }
